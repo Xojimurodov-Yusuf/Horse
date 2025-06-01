@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="short icon" href="horse-photos/horse-logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Cal+Sans&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Orbitron:wght@800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Preahvihear&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Максимус</title>
+</head>
+
+<body>
+    <div id="loader">
+        <div class="loading-bar">Загрузка</div>
+    </div>
+
+    <header>
+        <div class="container">
+            <nav class="header-nav">
+                <img class="logo" src="horse-photos/horse-logo.svg" alt="logo">
+                <img class="burger" src="horse-photos/burger.svg" alt="burger">
+                <ul class="header-ul">
+                    <li> <a class="header-a" href="#onas">О нас</a></li>
+                    <li> <a class="header-a" href="#uslugi">Услуги и цены</a></li>
+                    <li> <a class="header-a" href="#photos">Фотоальбом</a></li>
+                    <li> <a class="header-a" href="#contact">Контакты</a></li>
+                </ul>
+
+                <div class="burger-div">
+                    <img class="close" src="horse-photos/close-burger.svg" alt="close-burger">
+                    <ul class="burger-ul">
+                        <li> <a class="header-res-a" href="#onas">О нас</a></li>
+                        <li> <a class="header-res-a" href="#uslugi">Услуги и цены</a></li>
+                        <li> <a class="header-res-a" href="#photos">Фотоальбом</a></li>
+                        <li> <a class="header-res-a" href="#contact">Контакты</a></li>
+                    </ul>
+                </div>
+
+                <div class="phone-number-div">
+                    <div class="numbers">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M1.88541 0.510194C2.06038 0.335474 2.27048 0.199938 2.50179 0.112565C2.7331 0.0251932 2.98033 -0.0120195 3.22711 0.00339337C3.47389 0.0188063 3.71457 0.0864929 3.93321 0.201968C4.15185 0.317442 4.34346 0.478068 4.49533 0.673201L6.29027 2.97931C6.61926 3.40233 6.73526 3.95335 6.60526 4.47338L6.05828 6.66348C6.03 6.77691 6.03153 6.89573 6.06272 7.0084C6.0939 7.12107 6.15369 7.22376 6.23628 7.30651L8.6932 9.76362C8.77603 9.84638 8.87889 9.90627 8.99174 9.93746C9.1046 9.96866 9.2236 9.97009 9.33718 9.94163L11.5261 9.3946C11.7827 9.33044 12.0506 9.32545 12.3094 9.38003C12.5682 9.4346 12.8112 9.5473 13.0201 9.70962L15.326 11.5037C16.155 12.1487 16.231 13.3738 15.489 14.1148L14.455 15.1489C13.715 15.8889 12.6091 16.2139 11.5781 15.8509C8.93937 14.9224 6.54354 13.4116 4.56833 11.4307C2.58768 9.45562 1.07705 7.05995 0.148466 4.42137C-0.213522 3.39133 0.111467 2.28428 0.851444 1.54424L1.88541 0.510194Z"
+                                fill="#008139" />
+                        </svg>
+                        <a class="number-a" href="tel:">+7 (000) 000-00-00</a>
+                    </div>
+
+                    <div class="business hours">
+                        <p class="hours">Ежедневно 9:00 – 22:00</p>
+                    </div>
+                </div>
+            </nav>
+            <img class="chayki-res" src="horse-photos/Чайки 1.svg" alt="chayki">
+        </div>
+
+        <div class="header-section" data-aos="fade-up">
+            <div class=" header-left-card">
+                <h1>Окунитесь в мир лошадей вместе с нами</h1>
+                <div class="svg-p">
+                    <svg class="svg" width="26" height="1" viewBox="0 0 26 1" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <rect width="26" height="1" fill="#8F8F8F" />
+                    </svg>
+                    <p class="header-sec-item">
+                        Уроки верховой езды, фотосессии и мероприятия
+                        в частном конном клубе <span>г. Санкт-Петербург</span></p>
+                </div>
+                <button id="yozilish" class="yozilish-btn-header">записаться</button>
+            </div>
+
+            <div class="images">
+                <img class="chayki" src="horse-photos/Чайки 1.svg" alt="chayki">
+                <img class="ombor" src="horse-photos/ombor.svg" alt="ombor">
+                <img class="header-horse" src="horse-photos/Лошадь 1.svg" alt="horse">
+            </div>
+            <img class="bulut" src="horse-photos/Облака 1 (2).svg" alt="">
+            <img class="buta" src="horse-photos/res-buta.svg" alt="buta">
+        </div>
+    </header>
+
+    <main>
+        <section id="onas" data-aos="fade-up">
+            <div class="container">
+                <div class="club-section">
+                    <h2 class="club-text">О нашем клубе</h2>
+
+                    <div class="club-info-div">
+                        <img class="sakrayotgan-ot" src="horse-photos/Лошадь в прыжке 1.svg" alt="ot">
+
+                        <div class="club-info-items">
+                            <div class="club-information">
+                                <div class="info">
+                                    <p class="club-number">1100+</p>
+                                    <p class="club-item">Довольный посетителейза последний год</p>
+                                </div>
+
+                                <div class="info">
+                                    <p class="club-number">50+</p>
+                                    <p class="club-item">Проведенных мероприятийза 6 месяцев</p>
+                                </div>
+                            </div>
+
+                            <div class="club-information">
+                                <div class="info">
+                                    <p class="club-number">20+</p>
+                                    <p class="club-item">Выпущенных профессиональных спортсменов за 1 год</p>
+                                </div>
+
+                                <div class="info">
+                                    <p class="club-number">15+</p>
+                                    <p class="club-item">Регулярный занятий в неделю с профессиональными наставниками
+                                    </p>
+                                </div>
+                            </div>
+
+                            <p class="club-info-item">Занятия проводятся индивидуально и в группах, стоимость
+                                также будет
+                                зависеть от ваших навыков
+                                и умений. Более выгодные условия
+                                предусмотрены для регулярных занятий при покупке абонементов.
+                                Для тех, кто хочет отточить своё мастерство, разработаны программы по специализации
+                                (конкур,
+                                выездка и другие), участие в соревнованиях и чемпионатах. Для самых маленьких любителей
+                                лошадей действуют
+                                пони-клубы, где ребята учатся ухаживать за животными и ездить на милых и добрых пони.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <p class="club-info-item-res">Занятия проводятся индивидуально и в группах, стоимость
+                        также будет
+                        зависеть от ваших навыков
+                        и умений. Более выгодные условия
+                        предусмотрены для регулярных занятий при покупке абонементов.
+                        Для тех, кто хочет отточить своё мастерство, разработаны программы по специализации
+                        (конкур,
+                        выездка и другие), участие в соревнованиях и чемпионатах. Для самых маленьких любителей
+                        лошадей действуют
+                        пони-клубы, где ребята учатся ухаживать за животными и ездить на милых и добрых пони.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section data-aos="fade-up">
+            <div class="container">
+                <div class="block-section">
+                    <div class="block-sec-items">
+                        <h2 class="club-text">Почему нас выбирают</h2>
+                        <p class="block-text">Подзаголовок блока</p>
+                    </div>
+
+                    <div class="block-sec-cards">
+                        <div class="block-card">
+                            <img class="block-sec-img" src="horse-photos/Group 24.svg" alt="Group">
+                            <p class="card-name">Удобное расположение</p>
+                            <p class="card-text">Мы находимся недалеко от автостанции «Восточный» чтобы вам было удобно
+                                добираться</p>
+                        </div>
+
+                        <div class="block-card">
+                            <img class="block-sec-img" src="horse-photos/Group 24 (1).svg" alt="Group">
+                            <p class="card-name">Обеденная зона </p>
+                            <p class="card-text">Имеется столовая, чтобы Вы могли перекусить и немного отдохнуть.
+                                Бесплатно чай, кофе, печенки.</p>
+                        </div>
+
+                        <div class="block-card">
+                            <img class="block-sec-img" src="horse-photos/Group 24 (6).svg" alt="Group">
+                            <p class="card-name">Профессиональные тренера</p>
+                            <p class="card-text">Наши преподаватели имеют награды в конном спорте, и отличные отзывы
+                                среди наших учеников</p>
+                        </div>
+
+                        <div class="block-card">
+                            <img class="car block-sec-img" src="horse-photos/Group 24 (4).svg" alt="Group">
+                            <p class="card-name">Бесплатная парковка</p>
+                            <p class="card-text">У нас имеется просторная парковка, чтобы вы могли без проблем
+                                припарковать свой автомобиль</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-section" data-aos="fade-up">
+            <div class="container">
+                <div class="yonalish-section">
+                    <div class="block-sec-items">
+                        <h2 class="club-text">Направления клуба</h2>
+                        <p class="block-text">Подзаголовок блока</p>
+                    </div>
+
+                    <div class="all-cards">
+                        <div class="cards-div-one">
+                            <div class="card-kalta">
+                                <img class="card-img-horse" src="horse-photos/card-img 1.svg" alt="img">
+                                <div class="horse-card-items">
+                                    <p class="horse-card-name">Уроки верховой езды</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Уроки профессиональной верховой езды для любителей и
+                                        начинающих</p>
+                                </div>
+                            </div>
+
+                            <div class="card-uzun">
+                                <img class="card-img-horse" src="horse-photos/card-img 2.svg" alt="img">
+                                <div class="horse-card-items">
+                                    <p class="horse-card-name">Прогулки верхом с тренером</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Тренировка клиентов, подготовка к занятиям конным спортом
+                                        на
+                                        профессиональном уровне под руководством опытных теннеров</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cards-div-one">
+                            <div class="card-uzun">
+                                <img class="card-img-horse" src="horse-photos/card-img 3.svg" alt="img">
+                                <div class="horse-card-items">
+                                    <p class="horse-card-name">Прогулки верхом с тренером</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Тренировка клиентов, подготовка к занятиям конным спортом
+                                        на
+                                        профессиональном уровне под руководством опытных теннеров</p>
+                                </div>
+                            </div>
+
+                            <div class="card-kalta">
+                                <img class="card-img-horse" src="horse-photos/card-img 4.svg" alt="img">
+                                <div class="horse-card-items">
+                                    <p class="horse-card-name">Фотосессии</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Уроки профессиональной верховой езды для любителей и
+                                        начинающих</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cards-div-one">
+                            <div class="card-kalta">
+                                <img class="card-img-horse" src="horse-photos/card-img 5.svg" alt="img">
+                                <div class="horse-card-items">
+                                    <p class="horse-card-name">Фотосессии</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Уроки профессиональной верховой езды для любителей и
+                                        начинающих</p>
+                                </div>
+                            </div>
+
+                            <div class="card-uzun">
+                                <img class="card-img-horse" src="horse-photos/card-img 6.svg" alt="img">
+                                <div class="horse-card-items">
+                                    <p class="horse-card-name">Прогулки верхом с тренером</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Тренировка клиентов, подготовка
+                                        к занятиям конным спортом
+                                        на профессиональном уровне под руководством опытных теннеров</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="horses">
+                <img class="women-horse" src="horse-photos/Девушка на лошади 1.svg" alt="ot">
+                <button id="yozilishtwo" class="yozilish-btn-horse">записаться</button>
+                <img class="baby-horse" src="horse-photos/Мальчик с лошадью 1.svg" alt="ot">
+                <img class="baby-horse-res" src="horse-photos/baby-horse-res.svg" alt="baby">
+                <img class="bulut-horses" src="horse-photos/Облака 1 (2).svg" alt="">
+            </div>
+        </section>
+
+        <section id="photos" data-aos="fade-up">
+            <div class="swiper-section">
+                <p class="club-text">Наши посетители</p>
+
+                <div class="swiper mySwiper1">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="photo-album" src="horse-photos/1.jpg" alt="horse-photos">
+                            <img class="photo-album" src="horse-photos/5.jpg" alt="horse-photos">
+                            <img class="photo-album" src="horse-photos/7.jpg" alt="horse-photos">
+                            <img class="photo-album" src="horse-photos/10.jpg" alt="horse-photos">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="photo-album" src="horse-photos/4.jpg" alt="horse-photos">
+                            <img class="photo-album" src="horse-photos/6.jpg" alt="horse-photos">
+                            <img class="photo-album" src="horse-photos/2.jpg" alt="horse-photos">
+                            <img class="photo-album" src="horse-photos/8.jpg" alt="horse-photos">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="photo-album" src="horse-photos/1.jpg" alt="horse-photos">
+                            <img class="photo-album" src="horse-photos/3.jpg" alt="horse-photos">
+                            <img class="photo-album" src="horse-photos/9.jpg" alt="horse-photos">
+                            <img class="photo-album" src="horse-photos/8.jpg" alt="horse-photos">
+                        </div>
+                    </div>
+
+                    <div class="swiper-btn">
+                        <div class="swiper-button-prev-my"> <img class="cursor" src="horse-photos/Vector (1).svg"
+                                alt="prev"></div>
+                        <div class="swiper-button-next-my"> <img class="cursor" src="horse-photos/Vector.svg" alt="nex">
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+
+                <div class="swiper mySwiper-one">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="photo-album" src="horse-photos/1.jpg" alt="horse-photos">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img class="photo-album" src="horse-photos/6.jpg" alt="horse-photos">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img class="photo-album" src="horse-photos/3.jpg" alt="horse-photos">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img class="photo-album" src="horse-photos/9.jpg" alt="horse-photos">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img class="photo-album" src="horse-photos/8.jpg" alt="horse-photos">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img class="photo-album" src="horse-photos/1.jpg" alt="horse-photos">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img class="photo-album" src="horse-photos/6.jpg" alt="horse-photos">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img class="photo-album" src="horse-photos/3.jpg" alt="horse-photos">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img class="photo-album" src="horse-photos/9.jpg" alt="horse-photos">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img class="photo-album" src="horse-photos/8.jpg" alt="horse-photos">
+                        </div>
+                    </div>
+
+                    <div class="swiper-btn">
+                        <div class="swiper-button-prev-my"> <img class="cursor" src="horse-photos/Vector (1).svg"
+                                alt="prev"></div>
+                        <div class="swiper-button-next-my"> <img class="cursor" src="horse-photos/Vector.svg" alt="nex">
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section data-aos="fade-up">
+            <div class="container">
+                <div class="horses-section">
+                    <p class="club-text">Наши лошади</p>
+
+                    <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="horse-card">
+                                    <img class="horse-img" src="horse-photos/horse 1.jpg" alt="horse">
+                                    <p class="horse-card-name">Мелисса</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Уроки профессиональной верховой езды для любителей и
+                                        начинающих
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="horse-card">
+                                    <img class="horse-img" src="horse-photos/horse 5.jpg" alt="horse">
+                                    <p class="horse-card-name">Циан</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Уроки профессиональной верховой езды для любителей и
+                                        начинающих
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="horse-card">
+                                    <img class="horse-img" src="horse-photos/horse 3.jpg" alt="horse">
+                                    <p class="horse-card-name">Хесана</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Уроки профессиональной верховой езды для любителей и
+                                        начинающих
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="horse-card">
+                                    <img class="horse-img" src="horse-photos/horse 4.jpg" alt="horse">
+                                    <p class="horse-card-name">Юджин</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Уроки профессиональной верховой езды для любителей и
+                                        начинающих
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="horse-card">
+                                    <img class="horse-img" src="horse-photos/horse 5.jpg" alt="horse">
+                                    <p class="horse-card-name">Жазель</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Уроки профессиональной верховой езды для любителей и
+                                        начинающих
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="horse-card">
+                                    <img class="horse-img" src="horse-photos/horse 3.jpg" alt="horse">
+                                    <p class="horse-card-name">Хесана</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Уроки профессиональной верховой езды для любителей и
+                                        начинающих
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-btn">
+                            <div class="swiper-button-prev-my"> <img class="cursor" src="horse-photos/Vector (1).svg"
+                                    alt="prev">
+                            </div>
+                            <div class="swiper-button-next-my"> <img class="cursor" src="horse-photos/Vector.svg"
+                                    alt="nex"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                    <div class="swiper mySwiper-two">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="horse-card">
+                                    <img class="horse-img" src="horse-photos/horse 1.jpg" alt="horse">
+                                    <p class="horse-card-name">Мелисса</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Уроки профессиональной верховой езды для любителей и
+                                        начинающих
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="horse-card">
+                                    <img class="horse-img" src="horse-photos/horse 5.jpg" alt="horse">
+                                    <p class="horse-card-name">Циан</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Уроки профессиональной верховой езды для любителей и
+                                        начинающих
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="horse-card">
+                                    <img class="horse-img" src="horse-photos/horse 3.jpg" alt="horse">
+                                    <p class="horse-card-name">Хесана</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Уроки профессиональной верховой езды для любителей и
+                                        начинающих
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="horse-card">
+                                    <img class="horse-img" src="horse-photos/horse 4.jpg" alt="horse">
+                                    <p class="horse-card-name">Юджин</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Уроки профессиональной верховой езды для любителей и
+                                        начинающих
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="horse-card">
+                                    <img class="horse-img" src="horse-photos/horse 5.jpg" alt="horse">
+                                    <p class="horse-card-name">Жазель</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Уроки профессиональной верховой езды для любителей и
+                                        начинающих
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="horse-card">
+                                    <img class="horse-img" src="horse-photos/horse 3.jpg" alt="horse">
+                                    <p class="horse-card-name">Хесана</p>
+                                    <img src="horse-photos/линия.svg" alt="liniya">
+                                    <p class="horse-card-text">Уроки профессиональной верховой езды для любителей и
+                                        начинающих
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-btn">
+                            <div class="swiper-button-prev-my"> <img class="cursor" src="horse-photos/Vector (1).svg"
+                                    alt="prev">
+                            </div>
+                            <div class="swiper-button-next-my"> <img class="cursor" src="horse-photos/Vector.svg"
+                                    alt="nex"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="uslugi" class="bg-winter" data-aos="fade-up.png" alt="bulut">
+            <img class="bulut-top" src="horse-photos/bulut-top.svg" alt="bulut">
+            <div class="container">
+                <div class="form-section">
+                    <img class="horse-girl" src="horse-photos/girl-with-horse.png" alt="girl-horse">
+                    <img class="horse-girl-res" src="horse-photos/girl-horse-res.png" alt="horse">
+
+                    <div class="form-info">
+                        <div class="form-items">
+                            <p class="form-name">Отвечаем на вопросы</p>
+                            <p class="form-text">Мы ответим на все ваши вопросы по телефону,
+                                или вы можете записаться на <span>бесплатное</span>
+                                пробное занятие</p>
+                        </div>
+
+                        <div class="form">
+                            <input id="nameInput" class="form-input" type="text" placeholder="Ваше имя">
+                            <input id="phone-number" class="form-input" type="tel" pattern="\d*"
+                                placeholder="+998 XX XXX XX XX">
+                            <p id="errorNumber">Формат: +998123456789</p>
+                            <button class="yozilish-btn">Задать вопрос</button>
+
+                            <form class="checkbox-form">
+                                <input class="checkbox-input" type="checkbox">
+                                <label class="form-label">Даю согласие на <a href="#">обработку данных</a></label>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="bulut-bottom" src="horse-photos/bulut 2.png" alt="bulut">
+        </section>
+
+        <section>
+            <div class="comentary-section">
+                <p class="club-text">О нас говорят клиенты</p>
+                <div class="swiper mySwiper3">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Позитивные эмоции, расслабление, чувство ответственности
+                                        и даже некоторой сказочности, сразу появляется красивая осанка, работают все
+                                        группы мышц.</p>
+
+                                    <button class="all-btn">Подробнее</button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 2.svg" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Валентина Сорокин</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Плюсов до безумия много! Реакция, общение с животным, любовь,
+                                        понимание, взаимопонимание, терпение, здесь можно перечислять и перечислять
+                                        очень много всего!</p>
+
+                                    <button class="all-btn">Подробнее </button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 3.svg" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Светлана Мирная</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Развивает силу, гибкость и координацию всадника;
+                                        Выпрямляется осанка
+                                        и повышается
+                                        стрессоустойчивость; Общение с лошадью лечит умственные отклонения.</p>
+
+                                    <button class="all-btn">Подробнее </button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 1.png" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Константин Сюткин</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Позитивные эмоции, расслабление, чувство ответственности
+                                        и даже некоторой сказочности, сразу появляется красивая осанка, работают все
+                                        группы мышц.</p>
+
+                                    <button class="all-btn">Подробнее </button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 2.svg" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Валентина Сорокин</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Плюсов до безумия много! Реакция, общение с животным, любовь,
+                                        понимание, взаимопонимание, терпение, здесь можно перечислять и перечислять
+                                        очень много всего!</p>
+
+                                    <button class="all-btn">Подробнее </button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 3.svg" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Светлана Мирная</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Развивает силу, гибкость и координацию всадника;
+                                        Выпрямляется осанка
+                                        и повышается
+                                        стрессоустойчивость; Общение с лошадью лечит умственные отклонения.</p>
+
+                                    <button class="all-btn">Подробнее </button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 1.png" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Константин Сюткин</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-btn">
+                        <div class="swiper-button-prev-my"> <img class="cursor" src="horse-photos/Vector (1).svg"
+                                alt="prev">
+                        </div>
+                        <div class="swiper-button-next-my"> <img class="cursor" src="horse-photos/Vector.svg" alt="nex">
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="swiper mySwiper4">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Позитивные эмоции, расслабление, чувство ответственности
+                                        и даже некоторой сказочности, сразу появляется красивая осанка, работают все
+                                        группы мышц.</p>
+
+                                    <button class="all-btn">Подробнее</button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 2.svg" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Валентина Сорокин</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Плюсов до безумия много! Реакция, общение с животным, любовь,
+                                        понимание, взаимопонимание, терпение, здесь можно перечислять и перечислять
+                                        очень много всего!</p>
+
+                                    <button class="all-btn">Подробнее </button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 3.svg" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Светлана Мирная</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Развивает силу, гибкость и координацию всадника;
+                                        Выпрямляется осанка
+                                        и повышается
+                                        стрессоустойчивость; Общение с лошадью лечит умственные отклонения.</p>
+
+                                    <button class="all-btn">Подробнее </button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 1.png" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Константин Сюткин</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Позитивные эмоции, расслабление, чувство ответственности
+                                        и даже некоторой сказочности, сразу появляется красивая осанка, работают все
+                                        группы мышц.</p>
+
+                                    <button class="all-btn">Подробнее </button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 2.svg" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Валентина Сорокин</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Плюсов до безумия много! Реакция, общение с животным, любовь,
+                                        понимание, взаимопонимание, терпение, здесь можно перечислять и перечислять
+                                        очень много всего!</p>
+
+                                    <button class="all-btn">Подробнее </button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 3.svg" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Светлана Мирная</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Развивает силу, гибкость и координацию всадника;
+                                        Выпрямляется осанка
+                                        и повышается
+                                        стрессоустойчивость; Общение с лошадью лечит умственные отклонения.</p>
+
+                                    <button class="all-btn">Подробнее </button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 1.png" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Константин Сюткин</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-btn">
+                        <div class="swiper-button-prev-my"> <img class="cursor" src="horse-photos/Vector (1).svg"
+                                alt="prev">
+                        </div>
+                        <div class="swiper-button-next-my"> <img class="cursor" src="horse-photos/Vector.svg" alt="nex">
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="swiper mySwiper5">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Позитивные эмоции, расслабление, чувство ответственности
+                                        и даже некоторой сказочности, сразу появляется красивая осанка, работают все
+                                        группы мышц.</p>
+
+                                    <button class="all-btn">Подробнее</button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 2.svg" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Валентина Сорокин</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Плюсов до безумия много! Реакция, общение с животным, любовь,
+                                        понимание, взаимопонимание, терпение, здесь можно перечислять и перечислять
+                                        очень много всего!</p>
+
+                                    <button class="all-btn">Подробнее </button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 3.svg" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Светлана Мирная</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Развивает силу, гибкость и координацию всадника;
+                                        Выпрямляется осанка
+                                        и повышается
+                                        стрессоустойчивость; Общение с лошадью лечит умственные отклонения.</p>
+
+                                    <button class="all-btn">Подробнее </button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 1.png" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Константин Сюткин</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Позитивные эмоции, расслабление, чувство ответственности
+                                        и даже некоторой сказочности, сразу появляется красивая осанка, работают все
+                                        группы мышц.</p>
+
+                                    <button class="all-btn">Подробнее </button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 2.svg" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Валентина Сорокин</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Плюсов до безумия много! Реакция, общение с животным, любовь,
+                                        понимание, взаимопонимание, терпение, здесь можно перечислять и перечислять
+                                        очень много всего!</p>
+
+                                    <button class="all-btn">Подробнее </button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 3.svg" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Светлана Мирная</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="comentary">
+                                <div class="text-btn">
+                                    <p class="comentariya">Развивает силу, гибкость и координацию всадника;
+                                        Выпрямляется осанка
+                                        и повышается
+                                        стрессоустойчивость; Общение с лошадью лечит умственные отклонения.</p>
+
+                                    <button class="all-btn">Подробнее </button>
+                                </div>
+
+                                <div class="left-profile">
+                                    <div class="profile-information">
+                                        <img src="horse-photos/profile 1.png" alt="profile">
+                                        <div class="profile-items">
+                                            <p class="user-name">Константин Сюткин</p>
+                                            <div class="profile-icons">
+                                                <img src="horse-photos/instagram (1).svg" alt="instagram">
+                                                <img src="horse-photos/vk (1).svg" alt="vk">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <img src="horse-photos/quote.svg" alt="quote">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-btn">
+                        <div class="swiper-button-prev-my"> <img class="cursor" src="horse-photos/Vector (1).svg"
+                                alt="prev">
+                        </div>
+                        <div class="swiper-button-next-my"> <img class="cursor" src="horse-photos/Vector.svg" alt="nex">
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="bg-location">
+            <img class="daraxt-right" src="horse-photos/daraxt-bg.png" alt="daraxt-bg">
+            <img class="pin" src="horse-photos/pin.svg" alt="pin">
+            <div class="container">
+                <div class="location-section">
+                    <div class="contacts">
+                        <p class="contact-text">Контакты</p>
+                        <img src="horse-photos/линия.svg" alt="liniya">
+
+                        <div class="icon-info">
+                            <img src="horse-photos/pin (1).svg" alt="pin">
+                            <a class="info-item" href="#">ул. Ленина, 25, офис 65</a>
+                        </div>
+
+                        <div class="icon-info">
+                            <img src="horse-photos/phone.svg" alt="pin">
+                            <a class="info-item" href="tel:">+998 91-011-83-53</a>
+                        </div>
+
+                        <div class="icon-info">
+                            <img src="horse-photos/gmail.svg" alt="pin">
+                            <a class="info-item" href="gmail:">mail@somemail.com</a>
+                        </div>
+
+                        <div class="icon-info">
+                            <img src="horse-photos/clock.svg" alt="pin">
+                            <p class="info-item">Пн-Пт: 10:00 - 19:00
+                                Сб: 10:00 - 17:00
+                                Вс: выходной</p>
+                        </div>
+
+                        <div class="icons-contact">
+                            <a href="https://www.instagram.com/just_user.01/"><img src="horse-photos/Group 31.svg"
+                                    alt="instagram"></a>
+                            <a href="https://www.youtube.com/@YusufjonXojimurodov"><img src="horse-photos/Group 32.svg"
+                                    alt="instagram"></a>
+                            <a href="tel:91-011-83-53"><img src="horse-photos/Group 33.svg" alt="instagram"></a>
+                            <a href="#"><img src="horse-photos/Group 34.svg" alt="instagram"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img class="daraxt-left" src="horse-photos/daraxt 2.png" alt="daraxt-bg">
+        </section>
+    </main>
+
+    <footer>
+        <nav class="horses-footer">
+            <div class="footer-left">
+                <img class="footer-logo" src="horse-photos/logo-footer.svg" alt="logo">
+
+                <div class="maxfiylik-items">
+                    <a class="footer-maxfiylik-text" href="#">Соглашение на обработку персональных данных</a>
+                    <a class="footer-maxfiylik-text footer-maxfiylik-text-res" href="#">Политика
+                        конфенденциальности</a>
+                </div>
+            </div>
+
+            <button class="zakaz-btn-res">Заказать звонок</button>
+
+            <ul class="footer-ul">
+                <li> <a class="footer-a" href="#onas">О нас</a></li>
+                <li> <a class="footer-a" href="#uslugi">Услуги и цены </a></li>
+                <li> <a class="footer-a" href="#photos">Фотоальбом </a></li>
+                <li> <a class="footer-a" href="#contact">Контакты</a></li>
+                <li> <button id="qongiroq" class="zakaz-btn">Заказать звонок</button></li>
+            </ul>
+
+        </nav>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
